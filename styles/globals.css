@@ -1,4 +1,3 @@
-/* Глобальные стили для проекта, их можно дополнять и менять по желанию */
 
 *,
 *::before,
@@ -28,6 +27,7 @@ ul {
   list-style: none;
 }
 
+
 picture {
   margin: 0;
   padding: 0;
@@ -35,8 +35,13 @@ picture {
 
 button,
 a {
-  color: currentColor;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  color: currentColor;
+}
+
+img {
+  max-inline-size: 100%;
+  block-size: auto;
 }
