@@ -1,12 +1,12 @@
 .page.theme_light {
-  --text-color: var(--color-black-2, #353430);
-  --accent-color: var(--color-pink-4, #ff8dcb);
-  --brand-color: var(--color-pink-3, #ffc2e6);
-  --highlight-color: var(--color-black-2, #353430);
-  --secondary-color: var(--color-black-2, #353430);
+  --text-color: var(--color-black-theme, #353430);
+  --accent-color: var(--color-pink-accencol, #ff8dcb);
+  --brand-color: var(--color-pink-brandcol, #ffc2e6);
+  --highlight-color: var(--color-black-theme, #353430);
+  --secondary-color: var(--color-black-theme, #353430);
   --secondary-color-ff: var(--color-black-ff, #35343040);
 
-  --page-background-color: var(--color-pink-1, #fff1f7);
+  --page-background-color: var(--color-pink-pagecol, #fff1f7);
   --page-background-image: url("../images/cover-image-light.png");
 
   --visible-decor-visibility: hidden;
@@ -14,13 +14,13 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --text-color: var(--color-black-2, #353430);
-    --accent-color: var(--color-pink-4, #ff8dcb);
-    --brand-color: var(--color-pink-3, #ffc2e6);
-    --highlight-color: var(--color-black-2, #353430);
-    --secondary-color: var(--color-black-2, #353430);
+    --text-color: var(--color-black-theme, #353430);
+    --accent-color: var(--color-pink-accencol, #ff8dcb);
+    --brand-color: var(--color-pink-brandcol, #ffc2e6);
+    --highlight-color: var(--color-black-theme, #353430);
+    --secondary-color: var(--color-black-theme, #353430);
     --secondary-color-ff: var(--color-black-ff, #35343040);
-    --page-background-color: var(--color-pink-1, #fff1f7);
+    --page-background-color: var(--color-pink-pagecol, #fff1f7);
     --page-background-image: url("../images/cover-image-light.png");
 
     --visible-decor-visibility: hidden;

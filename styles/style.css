@@ -281,7 +281,7 @@
 
 @media (width >= 1024px) {
   .page-title {
-    text-shadow: 4px 4px 0 var(--color-purple-2, #ff0070);
+    text-shadow: 4px 4px 0 var(--color-purple-page, #ff0070);
   }
 
   .container-box {
